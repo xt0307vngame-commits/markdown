@@ -1,3 +1,11 @@
+$\partial$
+
+đọc là: **đạo hàm**
+
+
+
+
+
 **Linear Regression**:
 
 $$
@@ -18,3 +26,17 @@ Trong đó:
 - $h_\theta(x^{(i)})$: giá trị dự đoán của mô hình
 - $\theta_0, \theta_1$: các tham số (weights) của mô hình
 
+
+**Công thức cập nhật $\theta$**
+
+$$
+\theta_0 = \theta_0 - \alpha\frac{\partial\mathcal{J}}{\partial\theta_0}
+$$
+
+$$
+\theta_1 = \theta_1 - \alpha\frac{\partial\mathcal{J}}{\partial\theta_1}
+$$
+
+Trong đó:
+- $\alpha$ (alpha): **learning rate** - tốc độ học
+- $\partial\mathcal{J}/\partial\theta$: đạo hàm (hướng dốc)
